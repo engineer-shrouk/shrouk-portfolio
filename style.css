@@ -1,0 +1,97 @@
+﻿/* =========================
+   GENERAL
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0b0b0f;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 8%;
+}
+
+.hero-content {
+    max-width: 1000px;
+}
+
+.small-text {
+    color: #a78bfa;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: clamp(50px, 8vw, 100px);
+    line-height: 0.95;
+    margin-bottom: 25px;
+}
+
+.role {
+    font-size: 28px;
+    color: #b8b8c5;
+    margin-bottom: 25px;
+}
+
+.description {
+    max-width: 600px;
+    color: #8f8f9d;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 14px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.primary {
+    background: #a78bfa;
+    color: #0b0b0f;
+}
+
+    .primary:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 30px rgba(167, 139, 250, 0.3);
+    }
+
+.secondary {
+    border: 1px solid #33333f;
+    color: white;
+}
+
+    .secondary:hover {
+        background: #181820;
+    }
